@@ -18,7 +18,7 @@ body {
 .cabeza {
     width: 100px;
     height: 100px;
-    background-color: #000000;
+    background-color: #00ff51;
     border-radius: 50%;
     position: absolute;
     top: 0;
@@ -57,7 +57,7 @@ body {
 .pierna {
     width: 20px;
     height: 50px;
-    background-color: #66cc33;
+    background-color: #d00d06;
     position: relative;
 }
 
@@ -70,9 +70,9 @@ body {
 }
 
 .brazo {
-    width: 20px;
+    width: 30px;
     height: 60px;
-    background-color: #66cc33;
+    background-color: #dd830e;
     position: relative;
 }
 
