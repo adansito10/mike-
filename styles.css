@@ -78,5 +78,5 @@ body {
 
 @keyframes movimiento {
     0% { transform: translateX(0); }
-    100% { transform: translateX(20vw); } 
+    100% { transform: translateX(50vw); } 
 }
