@@ -1,0 +1,82 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #4a008a;
+    overflow: hidden; 
+}
+
+.personaje {
+    position: relative;
+    width: 150px;
+    height: 200px;
+    animation: movimiento 5s infinite alternate ease-in-out; 
+}
+
+.cabeza {
+    width: 100px;
+    height: 100px;
+    background-color: #66cc33;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 25px;
+}
+
+.ojo {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    box-shadow: 0 0 0 10px black;
+}
+
+.cuerpo {
+    width: 150px;
+    height: 100px;
+    background-color: #66cc33;
+    position: absolute;
+    top: 100px;
+    left: 0;
+    border-radius: 0 0 80px 80px;
+}
+
+.piernas {
+    position: absolute;
+    top: 180px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pierna {
+    width: 20px;
+    height: 50px;
+    background-color: #66cc33;
+    position: relative;
+}
+
+.brazos {
+    position: absolute;
+    top: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.brazo {
+    width: 20px;
+    height: 60px;
+    background-color: #66cc33;
+    position: relative;
+}
+
+@keyframes movimiento {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(10vw); } /* Se mueve el 90% del ancho de la ventana */
+}
