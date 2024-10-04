@@ -39,7 +39,7 @@ body {
 .cuerpo {
     width: 150px;
     height: 100px;
-    background-color: #66cc33;
+    background-color: #0800ff;
     position: absolute;
     top: 100px;
     left: 0;
@@ -78,5 +78,5 @@ body {
 
 @keyframes movimiento {
     0% { transform: translateX(0); }
-    100% { transform: translateX(10vw); } /* Se mueve el 90% del ancho de la ventana */
+    100% { transform: translateX(20vw); } 
 }
